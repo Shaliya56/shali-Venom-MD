@@ -17,7 +17,7 @@ module.exports = {
     OWNER: process.env.OWNER === undefined ? `94761167172` : process.env.OWNER, //BOTS OWNER NUMBER
     PREFIX: process.env.PREFIX === undefined ? '.' : process.env.PREFIX, //BOTS PREFIX 
     MAX_SIZE: process.env.MAX_SIZE === undefined ? '200' : process.env.MAX_SIZE, //MAX UPLOAD SIZE
-    LOGO: process.env.LOGO === undefined ? `https://i.postimg.cc/JzHb8pfV/IMG-20241124-WA0139.jpg` : process.env.LOGO, //ALIVE IMAGE URL
+    LOGO: process.env.LOGO === undefined ? `https://i.ibb.co/fvK8sQL/5f21e86322e58b46.jpg` : process.env.LOGO, //ALIVE IMAGE URL
     ANTI_LINK: process.env.ANTI_LINK === undefined ? 'true' : process.env.ANTI_LINK, //TRUE OR FALSE
     ANTI_BAD: process.env.ANTI_BAD === undefined ? 'true' : process.env.ANTI_BAD, //TRUE OR FALSE
     ANTI_BOT: process.env.ANTI_BOT === undefined ? 'true' : process.env.ANTI_BOT, //TRUE OR FALSE
