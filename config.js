@@ -8,13 +8,13 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
     SESSION_ID: process.env.SESSION_ID === undefined ? 'PINKVENOM-MD;HRdUBIIR#Kpg0KpqldG8SGiuMaR0vcRXW2OCNkLWgktf2Qd0--uo' : process.env.SESSION_ID, //ADD YOUR SESSION ID
-    GITHUB_USER_NAME: process.env.GITHUB_USER_NAME === undefined ? '' : process.env.GITHUB_USER_NAME, //ADD YOUR GITHUB USERNAME
-    GITHUB_AUTH_TOKEN: process.env.GITHUB_AUTH_TOKEN === undefined ? '' : process.env.GITHUB_AUTH_TOKEN, //ADD YOUR GITHUB AUTH TOKEN WITHOUT gph_ ,  example - G5OxxdvEbiBPWxm4A0xypQGlyCr4FS267ifz
-    WORK_TYPE: process.env.WORK_TYPE === undefined ? 'public' : process.env.WORK_TYPE, //ONLYME / ONLYGROUP OR PUBLIC
+    GITHUB_USER_NAME: process.env.GITHUB_USER_NAME === undefined ? 'Shaliya56' : process.env.GITHUB_USER_NAME, //ADD YOUR GITHUB USERNAME
+    GITHUB_AUTH_TOKEN: process.env.GITHUB_AUTH_TOKEN === undefined ? 'z9EmhvbMLcQyykC3NrbsR0t4XuWjGP1fEtIA' : process.env.GITHUB_AUTH_TOKEN, //ADD YOUR GITHUB AUTH TOKEN WITHOUT gph_ ,  example - G5OxxdvEbiBPWxm4A0xypQGlyCr4FS267ifz
+    WORK_TYPE: process.env.WORK_TYPE === undefined ? 'private ' : process.env.WORK_TYPE, //ONLYME / ONLYGROUP OR PUBLIC
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS === undefined ? 'true' : process.env.AUTO_READ_STATUS, //TRUE OR FALSE
     PRESENCE: process.env.PRESENCE === undefined ? `available` : process.env.PRESENCE, //AVAILABLE, COMPOSING, RECORDING OR UNAVAILABLE
     ALIVE: process.env.ALIVE === undefined ? `default` : process.env.ALIVE, //YOUR ALIVE MESSAGE OR SET IT TO defeault
-    OWNER: process.env.OWNER === undefined ? `94759874797` : process.env.OWNER, //BOTS OWNER NUMBER
+    OWNER: process.env.OWNER === undefined ? `94761167172` : process.env.OWNER, //BOTS OWNER NUMBER
     PREFIX: process.env.PREFIX === undefined ? '.' : process.env.PREFIX, //BOTS PREFIX 
     MAX_SIZE: process.env.MAX_SIZE === undefined ? '200' : process.env.MAX_SIZE, //MAX UPLOAD SIZE
     LOGO: process.env.LOGO === undefined ? `https://i.postimg.cc/JzHb8pfV/IMG-20241124-WA0139.jpg` : process.env.LOGO, //ALIVE IMAGE URL
